@@ -1,0 +1,41 @@
+
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Machine à Sous JS</title>
+
+  <link rel="stylesheet" href="style.css">
+  <!-- le script ne s’exécutera qu’une fois le HTML analysé -->
+  <script src="script.js" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script></head>
+<body>
+   <div class="picture" id="image">
+  <h1>Machine à Sous</h1>
+
+  <div id="credits">Crédits : <span id="credit-value">10</span></div>
+  <br>
+  <div id="Miser">
+    <label for="Mise">Mise :</label>
+    <input type="number" id="Mise" value ="1" min="1" /> 
+
+  </div>
+  <br>
+
+  <div id="slot">
+    <div class="reel" id="reel1">😍</div>
+    <div class="reel" id="reel2">😂</div>
+    <div class="reel" id="reel3">😊</div>
+  </div>
+
+  <button id="spin">Tourner</button>
+  <div id="message"></div>
+
+  <a href ="./niveau2/index.html"> <button type="button" class="btn btn-warning">Niveau 2</button></a>
+
+ </div>
+</body>
+</html>
