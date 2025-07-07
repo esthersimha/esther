@@ -18,10 +18,10 @@
   const messageDiv = document.getElementById("message");
   const spinBtn = document.getElementById("spin");
   const Misebtn = document.getElementById("Mise");
-  const fail = new Audio('../sons/8-bit-video-game-fail-version-2-145478.mp3');
-  const gagne = new Audio('../sons/11l-victory_trumpet-1749704469779-358762.mp3');
-  const roulette = new Audio('../sons/slot-machine-payout-81725.mp3');
-  const jackpot =new Audio('../sons/winning-218995.mp3');
+  const fail = new Audio('./sons/8-bit-video-game-fail-version-2-145478.mp3');
+  const gagne = new Audio('./sons/11l-victory_trumpet-1749704469779-358762.mp3');
+  const roulette = new Audio('./sons/slot-machine-payout-81725.mp3');
+  const jackpot =new Audio('./sons/winning-218995.mp3');
 
   // Met à jour le compteur de crédits et l'état du bouton
   function updateCredits(amount) {
